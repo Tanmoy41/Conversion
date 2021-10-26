@@ -42,7 +42,7 @@ class BMR {
             bmr = 655 + (4.35 * weight) + (4.7 * height) - (4.7 * age);
             System.out.println("Your BMR is : " + f.format(bmr));
         } 
-        if(value=="Male") {
+        if(value == "Male") {
             bmr = 66 + (6.23 * weight) + (12.7 * height) - (6.8 * age);
             System.out.println("Your BMR is : " + f.format(bmr));
         }
